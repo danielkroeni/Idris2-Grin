@@ -51,7 +51,7 @@ getDoLog (d :: ds) = trim d == "logging" || getDoLog ds
 getOptimise : List String -> Bool
 getOptimise [] = False
 getOptimise (d :: ds) =
-    trim d == "optimse"
+    trim d == "optimise"
     || trim d == "optimize"
     || getOptimise ds
 
